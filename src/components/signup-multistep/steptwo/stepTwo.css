@@ -1,0 +1,135 @@
+.steptwo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.steptwo-back svg {
+  cursor: pointer;
+}
+
+.steptwo-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.steptwo-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.steptwo-header > h2 {
+  color: var(--text-default, #262626);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.steptwo-header > p {
+  color: var(--Body-Text, #767676);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.steptwo-header > p span {
+  color: var(--actions-dark-pressed, #093dc3);
+}
+
+.steptwo-header > h3 {
+  color: var(--text-secondary, #666);
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+.steptwo-otp {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.otp-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otp-form {
+  display: flex;
+  align-items: center;
+  width: 83%;
+  justify-content: space-between;
+}
+
+.otp-form input {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-default, #262626);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="number"] {
+  font-size: 20px;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otp-form input[type="password"] {
+  font-size: 38px;
+}
+
+.otp-container > svg {
+  cursor: pointer;
+}
+
+.otp-duration {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.otp-duration p {
+  color: var(--primitives-secondary, #e46c0b);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 20px */
+}
+
+.otp-duration h3 {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.otp-duration h3 span {
+  text-decoration-line: underline;
+}

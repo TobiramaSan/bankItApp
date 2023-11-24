@@ -1,0 +1,25 @@
+.transactions-container {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.transactions-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.transactions-cont > h2 {
+  color: var(--text-default, #262626);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.transactions-cont > div {
+  display: flex;
+  gap: 24px;
+}

@@ -1,0 +1,26 @@
+.admin-customer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.admin-customer-container h1 {
+  color: var(--text-default, #262626);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+.admin-customer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-total-geo-customer {
+  display: flex;
+  align-items: flex start;
+  justify-content: space-between;
+}

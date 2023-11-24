@@ -1,0 +1,87 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  /* gap: 110px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo h2 {
+  color: #062983;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162%; /* 48.375px */
+}
+
+.header-logo h2 span {
+  color: #e46c0b;
+}
+
+.header-nav {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 24px;
+  align-items: center;
+}
+
+.header-nav a,
+.header-action a {
+  color: var(--text-default, #262626);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  text-decoration: none;
+}
+
+.header-nav a:hover,
+.header-action a:hover {
+  color: #062983;
+}
+
+.header-action {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.header-action button {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  width: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162%;
+  cursor: pointer;
+  transition: is all ease;
+}
+
+.header-action .header-login {
+  border: 1px solid #062983;
+  background: #fff;
+  color: #062983;
+}
+
+.header-login:hover {
+  background: var(--palette-blue-200, #e6edfe);
+  color: #5482f7;
+  transition: 1s all ease;
+  border: none;
+}
+
+.header-action .header-signup {
+  border-radius: 24px;
+  background: #062983;
+  border: none;
+  color: white;
+}
+
+.header-signup:hover {
+  background: var(--palette-blue-200, #e6edfe);
+  color: #5482f7;
+  border: none;
+  transition: 1s all ease;
+}

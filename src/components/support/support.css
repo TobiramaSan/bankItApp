@@ -1,0 +1,197 @@
+.support-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 100%;
+  overflow-y: scroll;
+  background: linear-gradient(180deg, #062983 0.34%, rgba(6, 41, 131, 0.15) 134.94%);
+  padding: 96px 40px 0px;
+  box-sizing: border-box;
+}
+
+.support-container::-webkit-scrollbar {
+  display: none;
+}
+
+.support-close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.support-close svg {
+  cursor: pointer;
+}
+
+.support-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.support-header h3 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--text-dark-secondary, #dbdbdb);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.support-header h2 {
+  color: var(--text-dark-default, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.support-body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.support-message {
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+  cursor: pointer;
+}
+
+.support-message div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.support-message div h2 {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.support-message div p {
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.support-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.support-search {
+  width: 100%;
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  box-sizing: border-box;
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.support-search-cont {
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-default, #fff);
+  box-shadow: 0px 1px 24px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.support-search-cont input {
+  width: 95%;
+  border: none;
+  color: var(--text-secondary, #666);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.support-search-single {
+  border-radius: 16px;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.support-search-single h2 {
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.support-feedback {
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px 16px;
+  flex-direction: column;
+  gap: 48px;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.support-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.support-group label {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.support-group textarea {
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  width: 100%;
+  height: 128px;
+  box-sizing: border-box;
+  color: var(--text-secondary, #666);
+  padding: 11px 0px 0px 21px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}

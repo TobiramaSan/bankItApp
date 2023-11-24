@@ -1,0 +1,77 @@
+.admin-total-customers {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 48px;
+  align-items: flex-start;
+  gap: 96px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border-subdued, #e6e6e6);
+  background: var(--surface-default, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.admin-total-customers .total-customers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.admin-total-customers .total-customers h3 {
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+  text-transform: capitalize;
+}
+
+.admin-total-customers .total-customers h1 {
+  color: var(--text-default, #262626);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.admin-total-customers .total-rate-chart {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.admin-total-customers .tottal-rate-chart .total-rate {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.admin-total-customers .total-rate-chart .total-rate h3 {
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.admin-total-customers .total-rate-chart .total-rate .total-main-rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.admin-total-customers .total-rate-chart .total-rate .total-main-rate span {
+  color: var(--text-success, #059d02);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

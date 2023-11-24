@@ -1,0 +1,221 @@
+.admin-main {
+  margin-top: 157px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.admin-body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.welcome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.welcome h2 {
+  color: var(--text-default, #262626);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.welcome p {
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162%;
+}
+
+.admin-main form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.admin-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.save-password {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.save-password div {
+  display: flex;
+  align-items: center;
+}
+
+.save-password .forgot {
+  display: flex;
+  padding: 4px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.save-password .forgot span {
+  color: var(--text-default, #262626);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+.save-password div p {
+  width: 100%;
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.admin-single {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  padding: 8px 24px;
+  box-sizing: border-box;
+}
+
+.admin-single div {
+  position: relative;
+  width: 95%;
+}
+
+.admin-single div input {
+  width: 100%;
+  border: none;
+  padding: 10px 0px;
+  background-color: transparent;
+}
+
+.admin-hint-single div input[type="text"] {
+  text-transform: capitalize;
+}
+
+.admin-single div span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.aadmin-single div input:valid ~ span,
+.admin-single div input:focus ~ span {
+  transform: translateX(0px) translateY(-10px);
+}
+.admin-single div input:valid,
+.admin-single div input:focus {
+  margin-top: 5px;
+  padding-bottom: 0px;
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.admin-single svg {
+  cursor: pointer;
+}
+
+.admin-hint {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-hint > h2 {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.admin-hint-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-hint-double {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.admin-hint-single {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 172px;
+}
+
+.admin-hint-single p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+}
+
+.admin-container > p {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.admin-container > p span {
+  color: var(--text-default, #262626);
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}

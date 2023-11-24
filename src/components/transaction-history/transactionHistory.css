@@ -1,0 +1,112 @@
+.transaction-history {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  width: 100%;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.transaction-history-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.transaction-history-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.transaction-history-title h2 {
+  color: var(--text-default, #262626);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+.transaction-history-title p {
+  color: var(--text-secondary, #666);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.transaction-history-header > p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+
+.transaction-history-body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.transaction-single {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-single-user {
+  display: flex;
+  gap: 10px;
+}
+
+.transaction-single-outflow {
+  width: 48px;
+  height: 48px;
+  background-color: #fbf3f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-single-inflow {
+  width: 48px;
+  height: 48px;
+  background-color: #f3fcf2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-single-name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.transaction-single-name h2 {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+
+.transaction-single-name p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+.transaction-single-amount {
+  display: flex;
+  gap: 12px;
+}

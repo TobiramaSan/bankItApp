@@ -1,0 +1,41 @@
+.admin-hover-main-container {
+  width: 100%;
+  position: relative;
+}
+
+.admin-map-hover-container {
+  width: 100%;
+  display: flex;
+  padding: 26px 9px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  background: #262626;
+  border: 1px solid var(--border-subdued, #262626);
+  border-radius: 16px;
+}
+
+.admin-map-hover-container span {
+  color: var(--text-dark-secondary, #dbdbdb);
+  align-self: stretch;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.admin-map-hover-container h2 {
+  color: var(--text-dark-default, #fff);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.admin-hover-main-container .map-svg {
+  position: absolute;
+  left: 50%;
+  top: 95px;
+}

@@ -1,0 +1,55 @@
+.loginform-container,
+.loginform-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.loginform-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.loginform-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.loginform-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.loginform-forgot {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.loginform-forgot h2 {
+  color: var(--text-default, #262626);
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+.loginform-container > p {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.loginform-container > p span {
+  color: var(--text-default, #262626);
+  font-weight: 700;
+  cursor: pointer;
+}

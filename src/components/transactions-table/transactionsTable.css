@@ -1,0 +1,240 @@
+.transactionstable-container {
+  /* border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(38, 39, 41, 0.05); */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+
+.transactionstable-head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.transaction-period {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.transaction-period p {
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.specify-period {
+  border-radius: 24px;
+  background: var(--color-primary-gray-25, #fff);
+  box-sizing: border-box;
+  padding: 8px 16px;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.specify-period h2 {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.transaction-actions {
+  display: flex;
+  gap: 24px;
+}
+
+.transaction-actions .transaction-single {
+  border-radius: 24px;
+  background: var(--color-primary-gray-25, #fff);
+  padding: 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.transactions-single {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.all-status-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0px;
+  position: absolute;
+  left: 0;
+  top: 64px;
+  background: var(--surface-default, #fff);
+  width: 240px;
+  border-radius: 16px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.all-status-container p {
+  padding: 10px 16px;
+  box-sizing: border-box;
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  cursor: pointer;
+}
+
+.all-status-container p:hover {
+  background-color: #e6edfe;
+  color: #5482f7;
+}
+
+.transactionstable-body {
+  border-radius: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 2px 0px rgba(38, 39, 41, 0.05);
+}
+
+.transactionstable-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-default, #f2f2f2);
+}
+
+.transactionstable-header p {
+  padding: 24px 24px 16px;
+  box-sizing: border-box;
+  color: var(--palette-grey-800, #999);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+}
+
+.transactionstable-header p:first-child,
+.transactionstable-single > p:first-child {
+  width: 8%;
+}
+
+.transactionstable-header p:nth-child(2),
+.transactionstable-single > p:nth-child(2) {
+  width: 20%;
+}
+
+.transactionstable-header p:nth-child(3),
+.transactionstable-single p:nth-child(3) {
+  width: 14%;
+}
+
+.transactionstable-header p:nth-child(4),
+.transactionstable-single p:nth-child(4) {
+  width: 15%;
+}
+
+.transactionstable-header p:nth-child(5),
+.transactionstable-single p:nth-child(5) {
+  width: 20%;
+}
+
+.transactionstable-header p:nth-child(6),
+.transactionstable-single p:nth-child(6) {
+  width: 13%;
+}
+
+.transactionstable-header p:nth-child(7),
+.transactionstable-single > div {
+  width: 10%;
+}
+
+.transactionstable-single {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactionstable-single > p {
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.transactionstable-single > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transactionstable-single div svg {
+  cursor: pointer;
+}
+
+.transactionstable-single .successful {
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+  background: var(--surface-success-default, #f3fcf2);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: var(--text-success, #059d02);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+}
+
+.transactionstable-single .processing {
+  border-radius: 16px;
+  background: var(--surface-primary-default, #fafbff);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: var(--text-highlight, #245ef5);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+}
+
+.transactionstable-single .refunded {
+  border-radius: 16px;
+  background: var(--palette-grey-100, #fafafa);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: var(--palette-darkgrey-300, #474747);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+}
+
+.transactionstable-single .failed {
+  border-radius: 16px;
+  background: var(--surface-critical-default, #fbf3f3);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: var(--text-critical, #c52d26);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+}
+
+.transactionstable-single:last-child .moreaction-container .action-cts .action-cta {
+  top: -100px !important;
+}

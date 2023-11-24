@@ -1,0 +1,157 @@
+.step-one-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.back-button svg {
+  cursor: pointer;
+}
+
+.step-one-body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.step-one-body form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.step-one-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.step-one-group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.step-one-single {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  padding: 8px 24px;
+  box-sizing: border-box;
+}
+
+.step-one-single div {
+  position: relative;
+  width: 95%;
+}
+
+.step-one-single div input {
+  width: 100%;
+  border: none;
+  padding: 10px 0px;
+  background-color: transparent;
+}
+
+.step-hint-single div input[type="text"] {
+  text-transform: capitalize;
+}
+
+.step-one-single div span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.step-one-single div input:valid ~ span,
+.step-one-single div input:focus ~ span {
+  transform: translateX(0px) translateY(-10px);
+}
+.step-one-single div input:valid,
+.step-one-single div input:focus {
+  margin-top: 5px;
+  padding-bottom: 0px;
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.step-one-single svg {
+  cursor: pointer;
+}
+
+.step-one-hint {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.step-one-hint > h2 {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.step-hint-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.step-hint-double {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.step-hint-single {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 172px;
+}
+
+.step-hint-single p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+}
+
+.step-one-container > p {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.step-one-container > p span {
+  color: var(--text-default, #262626);
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}

@@ -1,0 +1,19 @@
+.admin-geographic-container {
+  display: flex;
+  width: 520px;
+  /* height: 368px; */
+  padding: 24px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subdued, #e6e6e6);
+  background: var(--surface-default, #fff);
+}
+
+.admin-geographic-container .admin-geographic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}

@@ -1,0 +1,53 @@
+.tierupgrade-container {
+  padding: 96px 84px 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 181px;
+}
+
+.tierupgrade-header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.tierupgrade-header svg {
+  cursor: pointer;
+}
+
+.tierupgrade-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 64px;
+}
+
+.tierupgrade-wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.tierupgrade-wrapper div h2 {
+  color: var(--text-default, #262626);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.tierupgrade-wrapper div p {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}

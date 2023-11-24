@@ -1,0 +1,124 @@
+.receipt-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.receipt-container::-webkit-scrollbar {
+  display: none;
+}
+
+.receipt-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.receipt-header div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.receipt-header div h2 {
+  color: var(--text-default, #262626);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.receipt-header div p {
+  color: var(--text-success, #059d02);
+  border-radius: 16px;
+  background: var(--surface-success-default, #f3fcf2);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  width: 52px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 14.4px */
+}
+
+.receipt-sub {
+  width: 100%;
+  border-radius: 16px;
+  background: var(--surface-subdued, #fafafa);
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.receipt-owner {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.receipt-owner p {
+  color: var(--text-secondary, #666);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.receipt-owner h2 {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.receipt-contact {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #a6a6a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receipt-contact svg {
+  width: 100%;
+}
+
+.receipt-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.receipt-footer p {
+  color: var(--text-critical, #c52d26);
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+.receipt-footer div {
+  border-radius: 50px;
+  border: 1px solid var(--text-default, #262626);
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

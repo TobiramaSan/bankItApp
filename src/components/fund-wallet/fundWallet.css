@@ -1,0 +1,76 @@
+.fund-wallet {
+  display: flex;
+  flex-direction: column;
+  padding: 96px 40px 0px;
+  box-sizing: border-box;
+  gap: 32px;
+}
+
+.fund-wallet-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fund-wallet-close svg {
+  cursor: pointer;
+}
+
+.fund-wallet-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.fund-wallet-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fund-wallet-header h2 {
+  color: var(--text-default, #262626);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.fund-wallet-header p {
+  color: var(--text-secondary, #666);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.fund-wallet-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.fund-wallet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fund-wallet-group {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.fund-wallet-save {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.fund-wallet-save p {
+  color: var(--color-primary-gray-100, #dadbdd);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}

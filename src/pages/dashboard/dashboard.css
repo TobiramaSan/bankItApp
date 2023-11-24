@@ -1,0 +1,19 @@
+.dashboard-container {
+  display: flex;
+  gap: 63px;
+}
+
+.dashboard-first,
+.dashboard-second {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.dashboard-first {
+  width: 59%;
+}
+
+.dashboard-second {
+  width: 41%;
+}

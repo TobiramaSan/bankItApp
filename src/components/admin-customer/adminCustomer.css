@@ -1,0 +1,77 @@
+.admin-customer-component {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 48px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border-subdued, #e6e6e6);
+  background: var(--surface-default, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.admin-customer-component .customers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.admin-customer-component .customers h3 {
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+  text-transform: capitalize;
+}
+
+.admin-customer-component .customers h1 {
+  color: var(--text-default, #262626);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.admin-customer-component .rate-chart {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.admin-customer-component .rate-chart .rate {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.admin-customer-component .rate-chart .rate h3 {
+  color: var(--text-secondary, #666);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.admin-customer-component .rate-chart .rate .main-rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.admin-customer-component .rate-chart .rate .main-rate span {
+  color: var(--text-success, #059d02);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

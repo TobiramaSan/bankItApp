@@ -1,0 +1,139 @@
+.send-money {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.start-typing {
+  width: 100%;
+  border-radius: 4px;
+  background: var(--palette-orange-100, #fef7f0);
+  padding: 20px 24px;
+  box-sizing: border-box;
+}
+
+.start-typing p {
+  color: var(--palette-orange-900, #612e05);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+}
+
+.send-money-bank {
+  width: 100%;
+  position: relative;
+}
+
+.send-money-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  padding: 8px 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.send-money-container div p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.send-money-container div h2 {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.send-money-amount {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.send-money-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.send-money-wrapper label {
+  color: var(--text-secondary, #666);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.send-money-wrapper div {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-money-wrapper div p {
+  color: var(--text-default, #262626);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 114.286% */
+}
+
+.send-money-wrapper div input {
+  color: var(--text-default, #262626);
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 114.286% */
+  width: 50%;
+  background: transparent;
+  text-align: center;
+  padding: 0px;
+  border: none;
+}
+
+.send-suggestion {
+  width: 100%;
+  gap: 12px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.send-suggestion::-webkit-scrollbar {
+  display: none;
+}
+
+.send-suggestion p {
+  display: inline-flex;
+  padding: 6px 16px;
+  border-radius: 4px;
+  background: var(--surface-primary-default, #fafbff);
+  box-sizing: border-box;
+  color: var(--text-highlight, #245ef5);
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}

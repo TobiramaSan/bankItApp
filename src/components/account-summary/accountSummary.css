@@ -1,0 +1,112 @@
+.account-summary-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-container {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: var(--actions-default, #062983);
+  background-image: url("../../assets/design.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 24px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.summary-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.total-balance {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.total-balance h2 {
+  color: var(--text-invert-default, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.total-balance svg,
+.account-number svg {
+  cursor: pointer;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.balance h1 {
+  color: var(--text-invert-default, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  text-decoration: line-through;
+}
+
+.balance h2 {
+  color: var(--text-invert-default, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.account-number {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: var(--palette-blue-800, #062983);
+}
+
+.account-number p {
+  color: var(--text-invert-default, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.action-container {
+  border-radius: 0px 0px 16px 16px;
+  background: var(--palette-blue-900, #041f62);
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.action-container h2 {
+  color: var(--text-invert-default, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}

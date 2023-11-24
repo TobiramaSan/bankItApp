@@ -1,0 +1,40 @@
+.daily-needs-container {
+  width: 100%;
+  background: url("../../assets/doodle.svg") no-repeat rgba(6, 41, 131, 0.8);
+  display: flex;
+  padding: 96px 0px;
+  flex-direction: column;
+}
+
+.daily-needs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.daily-needs-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+.daily-needs-header p {
+  color: var(--primary-50, #9cbfff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+
+.daily-needs-header h2 {
+  color: var(--primitives-white, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+}
+
+.daily-needs-header h2 span {
+  color: var(--palette-blue-300, #cedbfd);
+}

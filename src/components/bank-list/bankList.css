@@ -1,0 +1,51 @@
+.banklist-container {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 48px 0px rgba(26, 26, 26, 0.12);
+  position: absolute;
+  left: 0px;
+  top: 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+
+.banklist-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  background: var(--surface-subdued, #fafafa);
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.banklist-search input {
+  width: 95%;
+  border: none;
+  background-color: transparent;
+  color: var(--text-subdued, #b2b2b2);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.banklist-single {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.banklist-single p {
+  color: var(--text-secondary, #666);
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}

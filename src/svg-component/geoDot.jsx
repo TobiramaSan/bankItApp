@@ -1,0 +1,17 @@
+import React from "react";
+
+const GeoDot = ({ color }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="15"
+      height="15"
+      viewBox="0 0 15 15"
+      fill={color}
+    >
+      <circle cx="7.33594" cy="7.68359" r="7" fill={color} />
+    </svg>
+  );
+};
+
+export default GeoDot;

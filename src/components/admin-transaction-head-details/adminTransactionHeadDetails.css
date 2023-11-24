@@ -1,0 +1,56 @@
+.admin-transaction-details-cont {
+  display: flex;
+  width: 339px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subdued, #e6e6e6);
+  background: var(--surface-default, #fff);
+
+  /* Shadow/SM */
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+  position: relative;
+}
+
+.admin-transaction-details-cont .main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.admin-transaction-details-cont .main .transaction-type {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.admin-transaction-details-cont .main .transaction-type p {
+  color: var(--text-secondary, #666);
+
+  /* Subheader */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+  text-transform: capitalize;
+}
+
+.admin-transaction-details-cont .main .transaction-amount h1 {
+  color: var(--text-default, #262626);
+
+  /* Medium display */
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+}
+
+.admin-transaction-details-cont .svg-class {
+  position: absolute;
+  right: 0px;
+  bottom: 4px;
+}

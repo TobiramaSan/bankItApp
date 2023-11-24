@@ -1,0 +1,88 @@
+.welcome-container {
+  background-image: url("../../assets/doodle.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 24px 0px 0px;
+}
+
+.welcome-wrapper {
+  width: 100%;
+  display: flex;
+  margin: 200px 0px;
+  position: relative;
+}
+
+.welcome-cont {
+  width: 100%;
+  gap: 124px;
+  max-width: 1120px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.welcome-hero {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.welcome-text h2 {
+  color: var(--text-default, #262626);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 112.5% */
+  width: 80%;
+}
+
+.welcome-text h2 span {
+  color: var(--text-secondary, #666);
+}
+
+.welcome-text > p {
+  color: var(--text-secondary, #666);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162%; /* 35.64px */
+}
+
+.welcome-action {
+  display: flex;
+  gap: 24px;
+  width: 80%;
+}
+
+.welcome-action > div {
+  width: 45%;
+}
+
+.welcome-img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.welcome-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1700px) {
+  .welcome-img {
+    position: unset;
+    width: 40%;
+  }
+
+  .welcome-text h2 {
+    width: 90%;
+  }
+}

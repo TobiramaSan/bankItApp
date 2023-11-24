@@ -1,0 +1,35 @@
+.report-transaction {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.report-transaction > h2 {
+  color: var(--text-default, #262626);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.report-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.report-feedback > label {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.report-feedback textarea {
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  height: 128px;
+  padding: 11px 21px;
+}

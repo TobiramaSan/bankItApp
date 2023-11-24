@@ -1,0 +1,232 @@
+.admin-view-account-cont {
+  width: 100%;
+  background: var(--surface-default, #fff);
+  padding: 96px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.admin-view-account-cont h1 {
+  color: var(--text-default, #262626);
+
+  /* Header */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.admin-view-account-cont .closeSvg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.admin-view-account-cont .admin-view-account-body {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.admin-view-account-cont .admin-view-account-body .picture-edit {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.admin-view-account-cont .admin-view-account-body .picture-edit h3 {
+  color: var(--actions-default, #062983);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-account {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.admin-view-account-cont .admin-view-account-body .basic-info {
+  display: flex;
+  width: 90%;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 24px;
+  border: 1px solid var(--background-default, #f8f8fa);
+  background: var(--background-subdued, #fafafa);
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info h4 {
+  color: var(--text-default, #262626);
+
+  /* Large copy */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info .row p {
+  color: var(--text-secondary, #666);
+
+  /* Body */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info .row h1 {
+  color: var(--text-secondary, #666);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.admin-view-account-cont
+  .admin-view-account-body
+  .basic-info
+  .row
+  .view-applications,
+.admin-view-account-cont
+  .admin-view-account-body
+  .basic-info
+  .row
+  .view-statements,
+.admin-view-account-cont
+  .admin-view-account-body
+  .basic-info
+  .row
+  .view-transactions {
+  color: var(--actions-default, #062983);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info .row h1.status {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: var(--surface-success-default, #f3fcf2);
+  color: var(--text-success, #059d02);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  mix-blend-mode: multiply;
+}
+
+.admin-view-account-cont .admin-view-account-body .basic-info .row h1.tierlvl {
+  border-radius: 8px;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+  background: var(--surface-primary-default, #fafbff);
+  padding: 4px 8px;
+  color: var(--actions-default, #062983);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.support-feedback {
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px 16px;
+  flex-direction: column;
+  gap: 48px;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.support-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.support-group label {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.support-group textarea {
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  width: 100%;
+  height: 128px;
+  box-sizing: border-box;
+  color: var(--text-secondary, #666);
+  padding: 11px 0px 0px 21px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.support-feedback .buttons {
+  display: flex;
+  height: 48px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.support-feedback .buttons .cancel {
+  width: 200%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  width: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162%;
+  cursor: pointer;
+  transition: is all ease;
+}

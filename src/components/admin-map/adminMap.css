@@ -1,0 +1,21 @@
+.admin-map-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-map-single {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.admin-map-single div p {
+  color: var(--text-secondary, #666);
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

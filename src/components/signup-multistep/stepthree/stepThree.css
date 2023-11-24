@@ -1,0 +1,32 @@
+.stepthree-container {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.stepthree-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stepthree-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.stepthree-suggestions p {
+  display: inline;
+  margin-right: 12px;
+  border-radius: 4px;
+  background: var(--surface-primary-default, #fafbff);
+  padding: 6px 16px;
+  box-sizing: border-box;
+  color: var(--text-highlight, #245ef5);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}

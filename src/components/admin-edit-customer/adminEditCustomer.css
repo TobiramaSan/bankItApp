@@ -1,0 +1,200 @@
+.admin-edit-customer-cont {
+  width: 100%;
+  background: var(--surface-default, #fff);
+  padding: 96px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.admin-edit-customer-cont h1 {
+  color: var(--text-default, #262626);
+
+  /* Header */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+.admin-edit-customer-cont .closeSvg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.admin-edit-customer-cont .admin-customer-edit-body {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.admin-edit-customer-cont .admin-customer-edit-body .profile-pic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.admin-edit-customer-cont .admin-customer-edit-body .info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info {
+  border-radius: 24px;
+  border: 1px solid var(--background-default, #f8f8fa);
+  background: var(--background-subdued, #fafafa);
+  display: flex;
+  width: 92%;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info
+  h2 {
+  color: var(--text-default, #262626);
+
+  /* Large copy */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info
+  .inner-basic-info {
+  width: 100%;
+}
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info
+  .inner-basic-info
+  .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  /* border: 1px solid var(--border-default, #f2f2f2); */
+  background: var(--surface-subdued, #fafafa);
+  padding: 8px 24px;
+  box-sizing: border-box;
+}
+
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info
+  .inner-basic-info
+  .row
+  p {
+  color: var(--text-subdued, #b2b2b2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.admin-edit-customer-cont
+  .admin-customer-edit-body
+  .info-container
+  .basic-info
+  .inner-basic-info
+  .row
+  h1 {
+  color: var(--text-secondary, #666);
+
+  /* Large copy */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.support-feedback {
+  border-radius: 16px;
+  background: var(--surface-default, #fff);
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px 16px;
+  flex-direction: column;
+  gap: 48px;
+  box-shadow: 0px 1px 2px 0px rgba(6, 41, 131, 0.05);
+}
+
+.support-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.support-group label {
+  color: var(--text-default, #262626);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.support-group textarea {
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-subdued, #fafafa);
+  width: 100%;
+  height: 128px;
+  box-sizing: border-box;
+  color: var(--text-secondary, #666);
+  padding: 11px 0px 0px 21px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.support-feedback .buttons {
+  display: flex;
+  height: 48px;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.support-feedback .buttons .cancel {
+  width: 200%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  width: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 162%;
+  cursor: pointer;
+  transition: is all ease;
+}

@@ -1,0 +1,110 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  padding: 41px 48px 16px 48px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  background: var(--surface-default, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(38, 39, 41, 0.05);
+}
+
+.navbar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.navbar-text h2 {
+  color: var(--Heading-Text, #141414);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.navbar-text p {
+  color: var(--Body-Text, #767676);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.navbar-body {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar-cont {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navbar-search {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #f2f2f2);
+  background: var(--surface-default, #fff);
+  box-shadow: 0px 1px 24px 0px rgba(0, 0, 0, 0.06);
+  width: 368px;
+  padding: 8px 24px;
+  box-sizing: border-box;
+}
+
+.navbar-search input {
+  width: 95%;
+  border: none;
+  background-color: transparent;
+  color: var(--Body-Text, #767676);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.navbar-other {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar-points {
+  display: flex;
+  border-radius: 16px;
+  background: var(--palette-orange-600, #e46c0b);
+  width: 71px;
+  padding: 4px 12px;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navbar-points h2 {
+  color: var(--text-invert-default, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.navbar-points img {
+  position: absolute;
+  right: -7.053px;
+  top: -18px;
+}
+
+.navbar-notifications {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--surface-subdued, #fafafa);
+}
